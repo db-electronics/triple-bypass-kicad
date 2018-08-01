@@ -1,4 +1,4 @@
-update=Thu 25 Jan 2018 09:15:55 PM EST
+update=Wed 01 Aug 2018 01:37:39 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,3 +37,13 @@ LibName7=/home/rene/Git/KiCad/kicadlib/db-vgparts
 LibName8=power
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
