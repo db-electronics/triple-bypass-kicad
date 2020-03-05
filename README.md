@@ -9,7 +9,7 @@ http://www.sega-16.com/forum/showthread.php?31989-Take-your-Genesis-audio-to-the
 The current version of this is working with no issues and has been tested and measured with mdFourier. 
 
 # Design Files
-I designed this ussing Easyeda and, while I have made the file open for people to edit, I have not yet been able to allow for the files to be truly open source.  This is a work in progress and if I have to remake everything from scratch in Kicad.
+I designed this using the online software tool Easyeda. While I have made the file open for people to edit, I have not yet been able to allow for the files to be truly open source.  This is a work in progress and if I have to remake everything from scratch in Kicad. The files here will always be the most up to date versions. 
 
 # Change Log
  - Added jumpers so that all pulldowns could be enabled or disabled without switching parts.
