@@ -1,5 +1,5 @@
 # Triple Bypass Version 2
-This is a redesign of the fantastic 3bp from dbElectronics.  The goal was to redesign the board to accommodate all models on one pcb without the need to swap parts. It was a team effort between myself, Retrorgb, and Jose Cruz who did the majorty of the testing. Ace, FirebrandX and Mobiusstriptech all were part of the group that helped with the redesign and added various ideas and suggestions that lead to the final product.  The audio adjustment work was done with the help of the mdFourier tool by Artemio Urbina found here - 
+This is a redesign of the fantastic 3bp from dbElectronics.  The goal of this project was to take the inital desige and accommodate all models on one pcb without the need to swap parts. It was a team effort between myself, Retrorgb, and Jose Cruz who did the majorty of the testing. Ace, FirebrandX and Mobiusstriptech all were part of the group that helped with the redesign and added various ideas and suggestions that lead to the final product.  The audio adjustment work was done with the help of the mdFourier tool by Artemio Urbina found here - 
 https://github.com/ArtemioUrbina/MDFourier.  Artemio and Bfbii stayed up many late nights and helped me run mdFourier to get the levels to match as close as we could to a model 1 va3 genesis.
 
 
