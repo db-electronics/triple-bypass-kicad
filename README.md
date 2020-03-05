@@ -9,12 +9,12 @@ http://www.sega-16.com/forum/showthread.php?31989-Take-your-Genesis-audio-to-the
 The current version of this is working with no issues and has been tested and measured with mdFourier. 
 
 # Design Files
-I designed this used Easyeda and while I have made the file open for people to edit I have not yet been able to allow for the files to be truly open source.  this is a work in progress and if i have to remake everything from scratch in Kicad.
+I designed this ussing Easyeda and, while I have made the file open for people to edit, I have not yet been able to allow for the files to be truly open source.  This is a work in progress and if I have to remake everything from scratch in Kicad.
 
 # Change Log
- - Added jumpers so that all pulldowns could be enabled or disabled with out switch parts.
- - Added AC coupling capacitors on the input of the ths7374 to accommodate for systems that have not been measured yet.
- - Change the op amp to a soic8 footprint to accommodate a larger variety of possible op amps.
+ - Added jumpers so that all pulldowns could be enabled or disabled without switching parts.
+ - Added AC coupling capacitors on the input of the ths7374 to accommodate for systems that we have not measured or installed in yet.
+ - Changed the op amp to a soic8 footprint to accommodate a larger variety of possible op amps.
  - Changed the op amp to a tl972 low noise op amp.
  - Lowered the overall volume and increased resistance to try and alleviate some of the clipping in the louder games.
  - Changed the resistor values and numbering to try and fit on the smaller board.
