@@ -12,7 +12,7 @@ The current version of this is working with no issues and has been tested and me
 I designed this using the online software tool Easyeda. While I have made the file open for people to edit, I have not yet been able to allow for the files to be truly open source.  This is a work in progress and if I have to remake everything from scratch in Kicad. The files here will always be the most up to date versions. 
 # Change Log 06/03/2020
 - Changed the jumper settings on the silk screen to match new info from Jose Cruz that the model 2 va4 has all of the 75 ohm pulldowns on the Genesis. Nothging needs to be changed on the the previous versions.  Just take note when installing in a model 2 va4.
-# Change Log fro V1
+# Change Log from V1
  - Added jumpers so that all pulldowns could be enabled or disabled without switching parts.
  - Added AC coupling capacitors on the input of the ths7374 to accommodate for systems that we have not measured or installed in yet.
  - Changed the op amp to a soic8 footprint to accommodate a larger variety of possible op amps.
