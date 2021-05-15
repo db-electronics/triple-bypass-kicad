@@ -16,7 +16,7 @@ The current version of this is working with no issues and has been tested and me
 # Design Files
 I designed this using the online software tool Easyeda. While I have made the file open for people to edit, I have not yet been able to allow for the files to be truly open source.  This is a work in progress and if I have to remake everything from scratch in Kicad. The files here will always be the most up to date versions. 
 # Change Log 17/03/2020
-I have added a kicad file to the folder.  it looks ok but I still see some issues with ground layers.  I am new to kicad but this pretty damn close.  As it stands, I still recommend using the current gerber files to sedn to a pcd fab.  The design files are good to go if you want to to change or modify the design.  
+I have added a kicad file to the folder.  it looks ok but I still see some issues with ground layers.  I am new to kicad but this pretty damn close.  As it stands, I still recommend using the current gerber files to send to a pcd fab.  The design files are good to go if you want to to change or modify the design.  
 # Change Log 06/03/2020
 - Changed the jumper settings on the silk screen to match new info from Jose Cruz that the model 2 va4 has all of the 75 ohm pulldowns on the Genesis. Nothing needs to be changed on the previous versions.  Just take note when installing in a model 2 va4.
 # Change Log from V1
