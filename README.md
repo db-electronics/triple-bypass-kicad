@@ -1,21 +1,35 @@
-# Triple Bypass
-The Triple Bypass is an audio/video mod board designed for Sega Genesis/Megadrive consoles. It contains bypass circuitry for RGBs video and also contains a Mega Amp 2.0 audio amplifier designed by Ace and Villahed94.
+# Triple Bypass Version 2
+This is a redesign of the fantastic 3bp from dbElectronics.  The goal of this project was to take the initial design and accommodate all models on one pcb without the need to swap parts. It was a team effort between myself, Retrorgb, and Jose Cruz who did the majorty of the testing. Ace, FirebrandX and Mobiusstriptech all were part of the group that helped with the redesign and added various ideas and suggestions that lead to the final product.  The audio adjustment work was done with the help of the mdFourier tool by Artemio Urbina found here - 
+https://github.com/ArtemioUrbina/MDFourier.  Artemio and Bfbii stayed up many late nights and helped me run mdFourier to get the levels to match as close as we could to a model 1 va3 genesis.
 
+# Installation Instructions
+
+Currently I suggest using the Audio installation instructions from the mega amp 2.0
 http://www.sega-16.com/forum/showthread.php?31989-Take-your-Genesis-audio-to-the-next-level-The-Mega-Amp-2-0-is-here!
 
+For rgb bypass instructions, please see https://www.retrorgb.com/genesistriplebypass.html for now. I will continue working on getting more up-to-date instructions.
+
+
+
 # Confirmed Working
-The current version (0.3) has been confirmed to work properly by several people. Build with confidence!
+The current version of this is working with no issues and has been tested and measured with mdFourier. There are still some systems where the pull down jumpers have not been confirmed.  If you notice any issues, please let me know.
+# Design Files
+I designed this using the online software tool Easyeda. While I have made the file open for people to edit, I have not yet been able to allow for the files to be truly open source.  This is a work in progress and if I have to remake everything from scratch in Kicad. The files here will always be the most up to date versions. 
+# Change Log 17/03/2020
+I have added a kicad file to the folder.  it looks ok but I still see some issues with ground layers.  I am new to kicad but this pretty damn close.  As it stands, I still recommend using the current gerber files to send to a pcd fab.  The design files are good to go if you want to to change or modify the design.  
+# Change Log 06/03/2020
+- Changed the jumper settings on the silk screen to match new info from Jose Cruz that the model 2 va4 has all of the 75 ohm pulldowns on the Genesis. Nothing needs to be changed on the previous versions.  Just take note when installing in a model 2 va4.
+# Change Log from V1
+ - Added jumpers so that all pulldowns could be enabled or disabled without switching parts.
+ - Added AC coupling capacitors on the input of the ths7374 to accommodate for systems that we have not measured or installed in yet.
+ - Changed the op amp to a soic8 footprint to accommodate a larger variety of possible op amps.
+ - Changed the op amp to a tl972 low noise op amp.
+ - Lowered the overall volume and increased resistance to try and alleviate some of the clipping in the louder games.
+ - Changed the resistor values and numbering to try and fit on the smaller board.
+ - Changed audio and video capacitors to tantalum to accommodate for a bottom mount. 
+ - Adjusted and tested installation in a model 1 Genesis. 
+ - Increased the audio output capacitors to 47uf.
+ - Shrunk the overall size and move the din to the middle of the board to try to avoid the power jacks on a bottom install. 
+ - Changed the Low pass filter to a solder jumper that will enable when it is jumped.
 
-# Install Instructions
-Coming soon!
 
-# 3 BOM Variants
-There are 3 BOM variants to accomodate the 3 different versions of the Mega Amp 2.0:
-* YM2612
-* ASIC YM3438
-* GOAC YM3438
-
-The original release had a mistake in the BOM where R116 was identified as 1.30k instead of 2.20k. Fortunately this mistake has ZERO noticeable effects on circuit performace. I have since corrected the issue in the BOMs. Thanks to FirebrandX for finding this mistake.
-
-# PCB Finish
-There are no special requirements for the finish of this PCB - a 1.6mm PCB with HASL finish is perfectly acceptable for this PCB.
